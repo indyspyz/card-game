@@ -1,0 +1,17 @@
+.Card-box {
+    display: inline-block;
+    border: transparent 3px solid;
+    border-radius: 5px;
+    width: 200px;
+    height: 300px;
+    margin: 10px 10px 0 0;
+    box-shadow: 5px 5px whitesmoke;
+  }
+  
+  .Card-box:not(.Card-selected):hover  {
+    border: 3px solid silver;
+  }
+  
+  .Card-box.Card-selected {
+    border: 3px solid black;
+  }
